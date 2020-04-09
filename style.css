@@ -61,7 +61,6 @@ justify-content: right;
 
 .fotocat{
     max-width: 320px;
-
     transition:all 0.5s
 }
 .fotocat:hover{
@@ -69,5 +68,5 @@ justify-content: right;
 }
 .cattxt{
     font-size:calc(17px + 1.2vw);
-    letter-spacing: 7PX;
+    letter-spacing: 7px;
 }
