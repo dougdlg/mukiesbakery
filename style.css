@@ -1,0 +1,48 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand-md{
+    font-family: 'Norican', cursive;
+    font-size: 30px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    padding-right: 3rem;
+}
+.bg-dark-md {
+    background-color: black !important;
+  }
+
+.nav-link-md{
+justify-content: right;
+}
+.logopng{
+    display: block;
+    margin: auto;
+    width: 12vw;
+    min-width: 5rem;
+    padding-top: 2.2vw;
+    padding-bottom: 0.5vw;
+    align-content: center;
+}
+.hero{
+    display: block;
+    margin: 0;
+    width: 100%;
+    align-content: center;
+}
+.bienvenido{
+    font-size:calc(20px + 1.5vw);
+    text-align: center;
+    padding-top: 0.3vw;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid grey; 
+    letter-spacing: 10px; 
+}
+
+.descr{
+    text-align: justify;
+    padding-top: 1vw;
+    padding-bottom: 0.1 vw;
+    margin: 0vw 3vw;
+}
