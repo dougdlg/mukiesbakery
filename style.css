@@ -46,3 +46,28 @@ justify-content: right;
     padding-bottom: 0.1 vw;
     margin: 0vw 3vw;
 }
+.cat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1vw;
+ }
+
+.producto{
+    text-align: center;
+    display: inline-block;
+    padding: 0.8em;
+}
+
+.fotocat{
+    max-width: 400px;
+
+    transition:all 0.5s
+}
+.fotocat:hover{
+    transform: scale(1.05);
+}
+.cattxt{
+    font-size: 35px;
+    font-weight: bolder;
+}
