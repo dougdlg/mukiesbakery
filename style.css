@@ -38,6 +38,7 @@ justify-content: right;
     padding-bottom: 0.5em;
     border-bottom: 1px solid grey; 
     letter-spacing: 10px; 
+    
 }
 
 .descr{
@@ -47,26 +48,43 @@ justify-content: right;
     margin: 0vw 3vw;
 }
 .cat{
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
+    padding: 20px 0px;
     justify-content: center;
-    padding: 1vw;
  }
 
 .producto{
     text-align: center;
-    display: inline-block;
-    padding: 1.5rem;
+    display: inline-block; 
+    padding: 5px;  
 }
 
 .fotocat{
-    max-width: 320px;
-    transition:all 0.5s
+    width: calc(35vw + 40px);
+    max-width:400px;
+    padding: 10px;
+    transition:all 0.5s;
 }
 .fotocat:hover{
     transform: scale(1.05);
 }
 .cattxt{
-    font-size:calc(17px + 1.2vw);
-    letter-spacing: 7px;
+    font-size: calc(15px + 1.5vw);
+    text-align: center;
+    margin:0px ;
+    letter-spacing: 5px;
 }
+.img-fluid-md{
+    opacity: 0.6;
+    min-height: 100%;
+    min-width: 800px;
+    width: 100%;
+    max-height: 700px;
+    float: right;
+    margin: 0em;
+    border: 0em;
+    padding: 0em;
+}
+
+
